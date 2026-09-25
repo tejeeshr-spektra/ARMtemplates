@@ -1,0 +1,37 @@
+[
+  {
+    "ResourceType": "Microsoft.Compute/virtualMachines",
+    "Parameter": [
+      {
+        "Name": "max-cpu-cores",
+        "Value": "2"
+      },
+      {
+        "Name": "max-number-of-vCPUs",
+        "Value": "2"
+      },
+      {
+        "Name": "max-number-of-instances",
+        "Value": "1"
+      }
+    ]
+  },
+  {
+    "ResourceType": "Microsoft.OperationalInsights/workspaces",
+    "Parameter": [
+      {
+        "Name": "max-number-of-workspaces",
+        "Value": "1"
+      }
+    ]
+  },
+  {
+    "ResourceType": "Microsoft.OperationsManagement/solutions",
+    "Parameter": [
+      {
+        "Name": "max-number-of-solutions",
+        "Value": "1"
+      }
+    ]
+  }
+]
